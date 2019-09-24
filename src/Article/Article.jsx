@@ -2,7 +2,7 @@ import React from 'react'
 
 const Article = () => {
   return (
-    <div>
+    <body>
       <article>
         <h1>The Statue of Liberty's torch heads to new museum </h1>
 
@@ -30,7 +30,9 @@ const Article = () => {
 
         <p>Since then, the statue has served as a symbol of hope and possibility for many people who entered the United States as immigrants via neighboring Ellis Island.</p>
 
-        <p>"The original torch is a beautiful object of art and exemplifies the American ideals of freedom and democracy," says John Piltzecker, superintendent of the Statue of Liberty National Monument. That symbolic spirit inspired the decision to inscribe these famous lines on the statue's pedestal: <blockquote><p>Give me your tired, your poor.<br/>Your huddled masses yearning to breathe free.</p></blockquote></p>
+        <p>"The original torch is a beautiful object of art and exemplifies the American ideals of freedom and democracy," says John Piltzecker, superintendent of the Statue of Liberty National Monument. That symbolic spirit inspired the decision to inscribe these famous lines on the statue's pedestal:</p> 
+
+        <blockquote>Give me your tired, your poor.<br/>Your huddled masses yearning to breathe free.</blockquote>
 
         <p>In 2017, nearly 4.5 million people visited Liberty Island.</p>
 
@@ -38,7 +40,6 @@ const Article = () => {
 
         <p>The inspiration gallery, which is where the torch will live, will have floor-to-ceiling glass windows looking out at Lower Manhattan, including the World Trade Center.</p>
       </article>
-      
       <article>
         <h1>Some facts about the Statue of Liberty</h1>
         <ul>
@@ -48,7 +49,7 @@ const Article = () => {
           <li>Total weight of the Statue of Liberty is <b>225 tons (or 450,000 pounds)</b></li>
         </ul> 
       </article>
-    </div>
+    </body>
   )
 }
 
