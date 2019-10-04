@@ -1,0 +1,14 @@
+.section {
+	list-style: none;
+	background: white;
+	border: 1px solid red;
+	margin: 20px;
+	padding: 10px;
+}
+
+.list {
+	background: #BDBDBD;
+	padding: 0px;
+	margin: 0px;
+	border: 1px dashed #757575;
+}
