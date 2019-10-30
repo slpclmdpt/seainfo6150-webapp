@@ -3,4 +3,8 @@
 	padding: 0px;
 	margin: 0px;
 	border: 1px dashed #757575;
+	display: grid;
+	list-style: none;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
 }
